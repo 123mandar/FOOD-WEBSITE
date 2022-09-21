@@ -1,0 +1,36 @@
+/* NAVIGATION */
+#navbar{
+margin: -36px 0px;
+}
+
+navbar::before{
+
+}
+
+#home::before{
+ /* use psedeo selectors for putting background */
+ display: block;
+ margin: auto;
+ content: "";
+ border-bottom: 5px solid black;
+ /*absoulte and with relative to navbar */
+ /*  when we give z index the disappeared navbar appeared againn by itself */
+ width: 1559px;
+ height: 645px;
+}
+
+
+/* SERIVICES SECTION  */
+
+#services{
+}
+#services .box{
+}
+#services-container {
+    background: url(/IMG/bg.4.jpg) no-repeat center center/cover;
+
+}
+
+#services .box{
+    flex-direction: column;
+}
